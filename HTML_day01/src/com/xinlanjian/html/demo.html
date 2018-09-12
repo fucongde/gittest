@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- <meta charset="UTF-8"> -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+<meta http-equiv="refresh" content="30">
+<title>我的第一个HTML页面</title>
+</head>
+<body>
+	<a name="maodian1"></a>
+	<h1>我的网页内容</h1><br/>
+	已经换行5555<br>
+	The &lt;p&gt;&nbsp;element&nbsp;&nbsp;&nbsp;&copy; 2018年&reg;新蓝剑<br>
+	<h1>一级标签</h1>
+	<h6>六级标签</h6>
+	<p align="justify">这是一个新的段落</p>
+	<div style="color:red">
+		<p>第一行</p>
+		<p>第二行</p>
+		<p>第三行<span style="color:blue;font-size: 20px;" >不同颜色的文字</span></p>
+	</div>
+	<div align="center">
+	<img src="imgs/1.jpg" border="0" alt="这是我的图片" style="width: 100px;height: 60px;" title="这是我的图片" >
+    </div>
+    <div>
+		<a href="exercise1.html" target="_blank">跳转到百度</a>
+    </div>
+	<br>
+	<ol>
+		<li>
+			<ul>
+				<li>嵌套1</li>
+				<li>嵌套2</li>
+				<li>嵌套3</li>
+			</ul>
+		</li>
+		<li>two</li>
+		<li>three</li>
+	</ol>
+	<br>
+	<ul>
+		<li>one</li>
+		<li>two</li>
+		<li>three</li>
+	</ul>	
+	<br>
+	<table border="2" width="500px;" cellpadding="10px;" cellspacing="0px;">
+		<caption>我的表格标题</caption>
+		<thead>
+			<td>表头1</td>
+			<td>表头2</td>
+		</thead>
+		<tbody align="center">
+			<tr>
+				<td rowspan="2">第一行，第一列</td>
+			    <td>第一行，第二列</td>
+			</tr>
+			<tr>
+				<td>第二行，第二列</td>
+			</tr>
+			<tr>
+				<td colspan="2">第三行，第一列</td>
+			</tr>			
+		</tbody>
+		<tfoot>
+			<td>多对多</td>
+			<td>多对多</td>
+		</tfoot>
+	</table>
+	<br>
+	<form action="" method="post" name="form1">
+		<input type="text" name="username" value="默认值" readonly="true" maxlength="20" />
+		<br>
+		<input type="password" name="password"/><br>
+		<input type="radio" name="gender">男</input><br>
+		<input type="radio" name="gender">女</input><br>
+		<input type="checkbox" name="hobby" checked="true">吃饭</input><br>
+		<input type="checkbox" name="hobby">睡觉</input><br>
+		<input type="checkbox" name="hobby">学java</input><br>
+		<input type="button" name="" value="点击我">
+	     <br>
+	     <!--提交表单数据-->
+		<input type="submit" name="" value="提交">
+	</form>
+	<br>
+	<a href="#maodian1">点击我跳转到锚点</a>
+</body>
+</html>
